@@ -9,4 +9,8 @@ import lombok.Data;
 public class ModelYear {
     private int id;
     private int year;
+
+    public String toString(){
+        return year.toString();
+    }
 }
