@@ -11,4 +11,8 @@ public class Style {
     private String name;
     private Submodel submodel;
     private String trim;
+
+    public String toString (){
+        return name + " " + submodel.getModelName();
+    }
 }
