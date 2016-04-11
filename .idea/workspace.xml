@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cac48d5c-e04c-40ce-83ae-c9261fb234ed" name="Default" comment="Make, Model, ModelYear toString overloaded with names.&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Domain/ModelYear.java" afterPath="$PROJECT_DIR$/src/main/java/Domain/ModelYear.java" />
+    <list default="true" id="cac48d5c-e04c-40ce-83ae-c9261fb234ed" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Business/EdmundsStylesResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Domain/Style.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Domain/Submodel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EdmundsViewer.iws" />
@@ -70,7 +72,7 @@
       <file leaf-file-name="Model.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Domain/Model.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="5" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+            <state line="4" column="0" selection-start="38" selection-end="60" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
               <folding />
             </state>
           </provider>
@@ -88,16 +90,72 @@
       <file leaf-file-name="carService.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Documents/ITU/Fall 2015/Angular JS/EdmundsProject/services/carService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="88" selection-start="125" selection-end="187" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+            <state line="0" column="50" selection-start="238" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EdmundsViewer.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="carSearchController.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Documents/ITU/Fall 2015/Angular JS/EdmundsProject/controllers/carSearchController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="27" selection-start="517" selection-end="521" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1020">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Style.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Domain/Style.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="24" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModelYear.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Domain/ModelYear.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EdmundsStylesResult.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Business/EdmundsStylesResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="0.37205386" vertical-offset="0" max-vertical-offset="594">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Submodel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Domain/Submodel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="5" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="323">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EdmundsClient.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Business/EdmundsClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="147" selection-start="1311" selection-end="1311" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EdmundsViewer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/forms/EdmundsViewer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="0" selection-start="1573" selection-end="1573" vertical-scroll-proportion="0.8821549" vertical-offset="309" max-vertical-offset="1207">
+            <state line="59" column="0" selection-start="1573" selection-end="1573" vertical-scroll-proportion="0.0" vertical-offset="1003" max-vertical-offset="1377">
               <folding />
             </state>
           </provider>
@@ -124,13 +182,16 @@
         <option value="$PROJECT_DIR$/src/main/java/Controllers/EdmundsController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Business/EdmundsMakesResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Business/EdmundsClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/EdmundsViewerMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/forms/Edmunds Viewer.form" />
         <option value="$PROJECT_DIR$/src/main/java/Domain/Make.java" />
         <option value="$PROJECT_DIR$/src/main/java/Domain/Model.java" />
         <option value="$PROJECT_DIR$/src/main/java/Domain/ModelYear.java" />
         <option value="$PROJECT_DIR$/src/main/java/forms/EdmundsViewer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Domain/Submodel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Domain/Style.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Business/EdmundsClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Business/EdmundsStylesResult.java" />
       </list>
     </option>
   </component>
@@ -663,7 +724,8 @@
       <workItem from="1460332097094" duration="3251000" />
       <workItem from="1460336469126" duration="2994000" />
       <workItem from="1460339570678" duration="3274000" />
-      <workItem from="1460346313226" duration="1797000" />
+      <workItem from="1460346313226" duration="3236000" />
+      <workItem from="1460350010277" duration="317000" />
     </task>
     <task id="LOCAL-00001" summary="Domain entities for Make and Model created.&#10;">
       <created>1460336323002</created>
@@ -689,19 +751,22 @@
       <created>1460346360276</created>
       <updated>1460346360276</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="NullPointterException bugs in model and years selection fixed">
+      <created>1460348131855</created>
+      <updated>1460348131855</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12474000" />
+    <option name="totallyTimeSpent" value="14230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32694355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19382322" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -712,7 +777,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -721,6 +786,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32900432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32694355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -746,7 +812,8 @@
     <MESSAGE value="Form and EdmundsClient fixed" />
     <MESSAGE value="Forms sizes fixed" />
     <MESSAGE value="Make, Model, ModelYear toString overloaded with names." />
-    <option name="LAST_COMMIT_MESSAGE" value="Make, Model, ModelYear toString overloaded with names." />
+    <MESSAGE value="NullPointterException bugs in model and years selection fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="NullPointterException bugs in model and years selection fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -756,6 +823,20 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Business/EdmundsClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="129" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/forms/EdmundsViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="1573" selection-end="1573" vertical-scroll-proportion="0.0" vertical-offset="1003" max-vertical-offset="1377">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Business/EdmundsMakesResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
@@ -765,16 +846,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EdmundsViewer.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="14" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="629">
-          <folding />
-        </state>
+        <state line="9" column="14" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="629" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EdmundsViewerMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="272">
-          <folding />
-        </state>
+        <state line="6" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="272" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/forms/EdmundsViewer.java">
@@ -827,24 +904,18 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Business/EdmundsClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="544">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/EdmundsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="391">
-          <folding />
-        </state>
+        <state line="17" column="0" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="391" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EdmundsViewerMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="21" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="306">
-          <folding />
-        </state>
+        <state line="6" column="21" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="306" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/forms/EdmundsViewer.java">
@@ -890,9 +961,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Business/EdmundsClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="272">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -917,11 +986,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/ITU/Fall 2015/Angular JS/EdmundsProject/controllers/carSearchController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="30" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.66258353" vertical-offset="0" max-vertical-offset="1020" />
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/jre/lib/rt.jar!/sun/net/www/http/HttpClient.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="14" selection-start="1617" selection-end="1617" vertical-scroll-proportion="-0.8960452" vertical-offset="1592" max-vertical-offset="2482" />
@@ -937,20 +1001,9 @@
         <state line="245" column="18" selection-start="8352" selection-end="8352" vertical-scroll-proportion="0.33333334" vertical-offset="3542" max-vertical-offset="4522" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Business/EdmundsClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="72" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="595">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/EdmundsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding />
-        </state>
+        <state line="17" column="0" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -976,28 +1029,94 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EdmundsViewer.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="14" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="629">
-          <folding />
-        </state>
+        <state line="9" column="14" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="629" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EdmundsViewerMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+        <state line="6" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/forms/Edmunds Viewer.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="249" column="0" selection-start="10282" selection-end="10282" vertical-scroll-proportion="0.3327032" vertical-offset="3649" max-vertical-offset="18037" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="0" selection-start="1249" selection-end="1249" vertical-scroll-proportion="0.3327032" vertical-offset="334" max-vertical-offset="1819" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/lang/RuntimeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="0" selection-start="1177" selection-end="1177" vertical-scroll-proportion="0.3327032" vertical-offset="283" max-vertical-offset="1734" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/lang/NullPointerException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="1396" selection-end="1396" vertical-scroll-proportion="0.38941398" vertical-offset="406" max-vertical-offset="935" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="500" selection-end="500" vertical-scroll-proportion="0.3327032" vertical-offset="45" max-vertical-offset="9163" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/javax/swing/JComboBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="599" column="0" selection-start="20050" selection-end="20050" vertical-scroll-proportion="0.3327032" vertical-offset="9123" max-vertical-offset="40358" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/javax/swing/DefaultComboBoxModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="0" selection-start="2110" selection-end="2110" vertical-scroll-proportion="0.3327032" vertical-offset="1065" max-vertical-offset="2720" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/forms/EdmundsViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="1573" selection-end="1573" vertical-scroll-proportion="0.0" vertical-offset="309" max-vertical-offset="1207">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Documents/ITU/Fall 2015/Angular JS/EdmundsProject/services/carService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="88" selection-start="125" selection-end="187" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+        <state line="0" column="50" selection-start="238" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/forms/Edmunds Viewer.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
+    <entry file="file://$USER_HOME$/Documents/ITU/Fall 2015/Angular JS/EdmundsProject/controllers/carSearchController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="27" selection-start="517" selection-end="521" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Domain/Submodel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="5" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Business/EdmundsClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="147" selection-start="1311" selection-end="1311" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Domain/Style.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="24" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Domain/ModelYear.java">
@@ -1007,68 +1126,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="249" column="0" selection-start="10282" selection-end="10282" vertical-scroll-proportion="0.3327032" vertical-offset="3649" max-vertical-offset="18037">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/lang/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1249" selection-end="1249" vertical-scroll-proportion="0.3327032" vertical-offset="334" max-vertical-offset="1819">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/lang/RuntimeException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1177" selection-end="1177" vertical-scroll-proportion="0.3327032" vertical-offset="283" max-vertical-offset="1734">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/lang/NullPointerException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="0" selection-start="1396" selection-end="1396" vertical-scroll-proportion="0.38941398" vertical-offset="406" max-vertical-offset="935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="500" selection-end="500" vertical-scroll-proportion="0.3327032" vertical-offset="45" max-vertical-offset="9163">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/javax/swing/JComboBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="599" column="0" selection-start="20050" selection-end="20050" vertical-scroll-proportion="0.3327032" vertical-offset="9123" max-vertical-offset="40358">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/javax/swing/DefaultComboBoxModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="0" selection-start="2110" selection-end="2110" vertical-scroll-proportion="0.3327032" vertical-offset="1065" max-vertical-offset="2720">
-          <folding>
-            <element signature="e#2145#2146#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Domain/Model.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="5" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+        <state line="4" column="0" selection-start="38" selection-end="60" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/forms/EdmundsViewer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Business/EdmundsStylesResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="0" selection-start="1573" selection-end="1573" vertical-scroll-proportion="0.8821549" vertical-offset="309" max-vertical-offset="1207">
-          <folding />
+        <state line="13" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="0.37205386" vertical-offset="0" max-vertical-offset="594">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
