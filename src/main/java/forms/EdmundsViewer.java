@@ -29,6 +29,12 @@ public class EdmundsViewer extends JFrame{
     private JLabel lblType;
     private JLabel lblDrivenWheels;
     private JLabel lblNumOfDoors;
+    private JPanel generalInfo;
+    private JPanel priceInfo;
+    private JLabel lblPrivateParty;
+    private JLabel lblRetail;
+    private JLabel lblTradeIn;
+    private JPanel mainDetailPanel;
     private JPanel generalView;
 
     private EdmundsController controller = new EdmundsController();
@@ -120,7 +126,11 @@ public class EdmundsViewer extends JFrame{
             lblSize.setText(styleDetail.getVehicleSize());
             lblNumOfDoors.setText(Integer.toString(styleDetail.getNumOfDoors()));
 
-            generalView.setVisible(true);
+            lblPrivateParty.setText(Integer.toString(styleDetail.getPrice().getUsedPrivateParty()));
+            lblRetail.setText(Integer.toString(styleDetail.getPrice().getUsedTmvRetail()));
+            lblTradeIn.setText(Integer.toString(styleDetail.getPrice().getUsedTradeIn()));
+
+            mainDetailPanel.setVisible(true);
         }
     }
 }
