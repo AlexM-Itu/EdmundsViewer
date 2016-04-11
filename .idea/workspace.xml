@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cac48d5c-e04c-40ce-83ae-c9261fb234ed" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/forms/Edmunds Viewer.form" afterPath="$PROJECT_DIR$/src/main/java/forms/Edmunds Viewer.form" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/forms/EdmundsViewer.java" afterPath="$PROJECT_DIR$/src/main/java/forms/EdmundsViewer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -86,10 +85,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StyleDetail.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="StyleDetail.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Domain/StyleDetail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state line="22" column="1" selection-start="483" selection-end="483" vertical-scroll-proportion="0.62857145" vertical-offset="0" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
@@ -122,10 +121,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Edmunds Viewer.form" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/forms/Edmunds Viewer.form">
-          <provider selected="true" editor-type-id="ui-designer">
-            <state />
+      <file leaf-file-name="EdmundsViewer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/forms/EdmundsViewer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="136" column="46" selection-start="4373" selection-end="4373" vertical-scroll-proportion="0.0" vertical-offset="1754" max-vertical-offset="2652">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -190,8 +191,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Controllers/EdmundsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/Domain/StyleDetail.java" />
         <option value="$PROJECT_DIR$/src/main/java/Domain/Engine.java" />
-        <option value="$PROJECT_DIR$/src/main/java/forms/EdmundsViewer.java" />
         <option value="$PROJECT_DIR$/src/main/java/forms/Edmunds Viewer.form" />
+        <option value="$PROJECT_DIR$/src/main/java/forms/EdmundsViewer.java" />
       </list>
     </option>
   </component>
@@ -726,7 +727,7 @@
       <workItem from="1460339570678" duration="3274000" />
       <workItem from="1460346313226" duration="3236000" />
       <workItem from="1460350010277" duration="5693000" />
-      <workItem from="1460357968047" duration="2335000" />
+      <workItem from="1460357968047" duration="2678000" />
     </task>
     <task id="LOCAL-00001" summary="Domain entities for Make and Model created.&#10;">
       <created>1460336323002</created>
@@ -780,21 +781,25 @@
       <created>1460359156442</created>
       <updated>1460359156442</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Final polish">
+      <created>1460360398149</created>
+      <updated>1460360398149</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21941000" />
+    <option name="totallyTimeSpent" value="22284000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32694355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32694355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19382322" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19382322" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -810,7 +815,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32792208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -844,7 +849,8 @@
     <MESSAGE value="Style details API implemented" />
     <MESSAGE value="Price info panel data populated" />
     <MESSAGE value="Engine info binded from API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Engine info binded from API" />
+    <MESSAGE value="Final polish" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final polish" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1135,13 +1141,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Domain/StyleDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Domain/Engine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="14" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
@@ -1163,16 +1162,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/forms/Edmunds Viewer.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/forms/EdmundsViewer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="55" selection-start="5442" selection-end="5442" vertical-scroll-proportion="1.1378151" vertical-offset="1771" max-vertical-offset="2669">
+        <state line="136" column="46" selection-start="4373" selection-end="4373" vertical-scroll-proportion="0.0" vertical-offset="1754" max-vertical-offset="2652">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/forms/Edmunds Viewer.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Domain/StyleDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="1" selection-start="483" selection-end="483" vertical-scroll-proportion="0.62857145" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

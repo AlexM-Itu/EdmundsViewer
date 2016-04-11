@@ -137,9 +137,9 @@ public class EdmundsViewer extends JFrame{
             lblSize.setText(styleDetail.getVehicleSize());
             lblNumOfDoors.setText(Integer.toString(styleDetail.getNumOfDoors()));
 
-            lblPrivateParty.setText(Integer.toString(styleDetail.getPrice().getUsedPrivateParty()));
-            lblRetail.setText(Integer.toString(styleDetail.getPrice().getUsedTmvRetail()));
-            lblTradeIn.setText(Integer.toString(styleDetail.getPrice().getUsedTradeIn()));
+            lblPrivateParty.setText("$"+Integer.toString(styleDetail.getPrice().getUsedPrivateParty()));
+            lblRetail.setText("$"+Integer.toString(styleDetail.getPrice().getUsedTmvRetail()));
+            lblTradeIn.setText("$"+Integer.toString(styleDetail.getPrice().getUsedTradeIn()));
 
             lblEngineCode.setText(styleDetail.getEngine().getCode());
             lblCompressorType.setText(styleDetail.getEngine().getCompressorType());
