@@ -18,7 +18,6 @@ public class EdmundsViewer extends JFrame{
     private JComboBox modelComboBox;
     private JComboBox yearComboBox;
     private JComboBox styleComboBox;
-    private JProgressBar progressBar1;
     private JPanel rootPanel;
     private JLabel lblMake;
     private JLabel lblModel;
@@ -43,6 +42,10 @@ public class EdmundsViewer extends JFrame{
     private JLabel lblFueltype;
     private JLabel lblHorsepower;
     private JLabel lblTorque;
+    private JPanel transmissionPanel;
+    private JLabel lblTransmissionName;
+    private JLabel lblNumberOfSpeeds;
+    private JLabel lblTransmissionType;
     private JPanel generalView;
 
     private EdmundsController controller = new EdmundsController();
@@ -144,6 +147,10 @@ public class EdmundsViewer extends JFrame{
             lblCylinersNumber.setText(Integer.toString(styleDetail.getEngine().getCylinder()));
             lblHorsepower.setText(Integer.toString(styleDetail.getEngine().getHorsepower()));
             lblTorque.setText(Integer.toString(styleDetail.getEngine().getRpm().getTorque()));
+
+            lblTransmissionName.setText(styleDetail.getTransmission().getName());
+            lblNumberOfSpeeds.setText(Integer.toString(styleDetail.getTransmission().getNumberOfSpeeds()));
+            lblTransmissionType.setText(styleDetail.getTransmission().getTransmissionType());
 
             mainDetailPanel.setVisible(true);
         }
