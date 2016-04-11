@@ -11,6 +11,6 @@ public class ModelYear {
     private int year;
 
     public String toString(){
-        return year.toString();
+        return Integer.toString(year);
     }
 }
