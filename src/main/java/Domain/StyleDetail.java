@@ -1,8 +1,11 @@
 package Domain;
 
+import lombok.Data;
+
 /**
  * Created by Alex on 4/10/16.
  */
+@Data
 public class StyleDetail {
     private String primaryBodyType;
     private String vehicleSize;
@@ -16,5 +19,6 @@ public class StyleDetail {
     private int numOfDoors;
     private Price price;
     private Transmission transmission;
+    private String trim;
 }
 

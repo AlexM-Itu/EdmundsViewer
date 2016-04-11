@@ -3,6 +3,7 @@ package Controllers;
 import Business.EdmundsClient;
 import Domain.Make;
 import Domain.Style;
+import Domain.StyleDetail;
 
 import java.util.List;
 
@@ -18,5 +19,9 @@ public class EdmundsController {
 
     public List<Style> getEdmundsStyles (String make, String model, int year ){
         return edmundsClient.getEdmundsStyles(make, model, year);
+    }
+
+    public StyleDetail getEdmundsStyleDetails(int styleId){
+        return edmundsClient.getStyleDetails(styleId);
     }
 }
