@@ -2,6 +2,7 @@ package Controllers;
 
 import Business.EdmundsClient;
 import Domain.Make;
+import Domain.Style;
 
 import java.util.List;
 
@@ -13,5 +14,9 @@ public class EdmundsController {
 
     public List<Make> getEdmundsMakes (){
         return edmundsClient.getEdmundsMakes();
+    }
+
+    public List<Style> getEdmundsStyles (String make, String model, int year ){
+        return edmundsClient.getEdmundsStyles(make, model, year);
     }
 }
