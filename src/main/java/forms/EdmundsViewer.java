@@ -35,6 +35,14 @@ public class EdmundsViewer extends JFrame{
     private JLabel lblRetail;
     private JLabel lblTradeIn;
     private JPanel mainDetailPanel;
+    private JPanel enginePanel;
+    private JLabel lblEngineCode;
+    private JLabel lblCompressorType;
+    private JLabel lblEngineConfiguration;
+    private JLabel lblCylinersNumber;
+    private JLabel lblFueltype;
+    private JLabel lblHorsepower;
+    private JLabel lblTorque;
     private JPanel generalView;
 
     private EdmundsController controller = new EdmundsController();
@@ -129,6 +137,13 @@ public class EdmundsViewer extends JFrame{
             lblPrivateParty.setText(Integer.toString(styleDetail.getPrice().getUsedPrivateParty()));
             lblRetail.setText(Integer.toString(styleDetail.getPrice().getUsedTmvRetail()));
             lblTradeIn.setText(Integer.toString(styleDetail.getPrice().getUsedTradeIn()));
+
+            lblEngineCode.setText(styleDetail.getEngine().getCode());
+            lblCompressorType.setText(styleDetail.getEngine().getCompressorType());
+            lblFueltype.setText(styleDetail.getEngine().getFuelType());
+            lblCylinersNumber.setText(Integer.toString(styleDetail.getEngine().getCylinder()));
+            lblHorsepower.setText(Integer.toString(styleDetail.getEngine().getHorsepower()));
+            lblTorque.setText(Integer.toString(styleDetail.getEngine().getRpm().getTorque()));
 
             mainDetailPanel.setVisible(true);
         }
