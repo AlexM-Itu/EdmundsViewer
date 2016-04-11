@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cac48d5c-e04c-40ce-83ae-c9261fb234ed" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_14_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="DELETED" beforePath="C:\Projects\Java\EdmundsViewer\src\Business\EdmundsClient.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\Java\EdmundsViewer\src\Domain\Make.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\Java\EdmundsViewer\src\Domain\Model.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\Java\EdmundsViewer\src\forms\Edmunds Viewer.form" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\Java\EdmundsViewer\src\forms\EdmundsViewer.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EdmundsViewer.iml" afterPath="$PROJECT_DIR$/EdmundsViewer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Controllers/EdmundsController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EdmundsViewer.iws" />
@@ -80,8 +73,19 @@
       <file leaf-file-name="EdmundsClient.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Business/EdmundsClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="272">
+            <state line="7" column="0" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EdmundsController.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/EdmundsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="47" selection-start="323" selection-end="323" vertical-scroll-proportion="0.4006734" vertical-offset="0" max-vertical-offset="594">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,10 +112,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="21" selection-start="991" selection-end="991" vertical-scroll-proportion="0.7441077" vertical-offset="0" max-vertical-offset="594">
+            <state line="26" column="21" selection-start="991" selection-end="991" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
               <folding />
             </state>
           </provider>
@@ -120,7 +124,7 @@
       <file leaf-file-name="carService.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Documents/ITU/Fall 2015/Angular JS/EdmundsProject/services/carService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="70" selection-start="164" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+            <state line="2" column="88" selection-start="125" selection-end="187" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
               <folding />
             </state>
           </provider>
@@ -147,6 +151,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Domain/Model.java" />
         <option value="$PROJECT_DIR$/src/main/java/Domain/Make.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Business/EdmundsClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controllers/EdmundsController.java" />
       </list>
     </option>
   </component>
@@ -290,6 +296,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EdmundsViewer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EdmundsViewer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -587,17 +619,21 @@
       <updated>1458509767976</updated>
       <workItem from="1458509782622" duration="1158000" />
       <workItem from="1460332097094" duration="3251000" />
-      <workItem from="1460336469126" duration="779000" />
+      <workItem from="1460336469126" duration="1792000" />
     </task>
     <task id="LOCAL-00001" summary="Domain entities for Make and Model created.&#10;">
       <created>1460336323002</created>
       <updated>1460336323002</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Dependencies to GSON, Lombok and Jersery client added">
+      <created>1460337272988</created>
+      <updated>1460337272988</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5188000" />
+    <option name="totallyTimeSpent" value="6201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -616,6 +652,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -628,7 +665,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -645,7 +681,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Domain entities for Make and Model created.&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Domain entities for Make and Model created.&#10;" />
+    <MESSAGE value="Dependencies to GSON, Lombok and Jersery client added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dependencies to GSON, Lombok and Jersery client added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -690,7 +727,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EdmundsViewer.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="14" selection-start="413" selection-end="413" vertical-scroll-proportion="0.17037863" vertical-offset="0" max-vertical-offset="898" />
+        <state line="9" column="14" selection-start="413" selection-end="413" vertical-scroll-proportion="0.17037863" vertical-offset="0" max-vertical-offset="898">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/forms/EdmundsViewer.java">
@@ -710,20 +749,6 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/jre/lib/rt.jar!/sun/net/www/http/HttpClient.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="14" selection-start="1617" selection-end="1617" vertical-scroll-proportion="-0.8960452" vertical-offset="1592" max-vertical-offset="2482" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Business/EdmundsClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/ITU/Fall 2015/Angular JS/EdmundsProject/services/carService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="70" selection-start="164" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/lang/Integer.java">
@@ -751,10 +776,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Documents/ITU/Fall 2015/Angular JS/EdmundsProject/services/carService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="88" selection-start="125" selection-end="187" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="21" selection-start="991" selection-end="991" vertical-scroll-proportion="0.7441077" vertical-offset="0" max-vertical-offset="594">
+        <state line="26" column="21" selection-start="991" selection-end="991" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Business/EdmundsClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/EdmundsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="47" selection-start="323" selection-end="323" vertical-scroll-proportion="0.4006734" vertical-offset="0" max-vertical-offset="594">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
