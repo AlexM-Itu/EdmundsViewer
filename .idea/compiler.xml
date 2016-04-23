@@ -26,7 +26,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="EdmundsViewer" target="1.4" />
+      <module name="EdmundsViewer" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
